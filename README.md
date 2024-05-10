@@ -50,6 +50,12 @@ npm install
 
 2. Rename the .env.example file to .env
 
+3. IMPORTANT: To resolve an error of incompatible libs, please run the following command: 
+
+```bash
+npm install vite@4.4.0 --force
+```
+
 ## Usage
 
 1. Start the backend server application navigating to node folder and run the command:
