@@ -101,7 +101,7 @@ UPDATE /tasks/ - update the information of a task based on the id written on JSO
 
 **Patch a Task**
 ```markdown
-PATCH /tasks/:id - check if the task is finalized or not and update 
+PATCH /tasks/:id - check if the task is finalized or not and update the due_date with current date 
 ``` 
 
 **Delete a Task by ID**
